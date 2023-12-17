@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupytext = "*"
+torchtyping = "*"
+hypothesis = "*"
+torch = "==1.10"
+numpy = "*"
+pytest = "*"
+notebookjs = "*"
+jupyter = "*"
+chalk-diagrams = {git = "https://github.com/chalk-diagrams/chalk"}
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
